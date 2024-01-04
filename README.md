@@ -43,7 +43,7 @@ Oh no! it seems "MEMORY" was deallocated due to **fragmentation** within our sys
 DYNAMIC++MEMORY++ALLOCATOR++__________________
 9////////8///////11/////////000000000000000000
 ```
-- *Note that "MEMORY" was allocated in the first available *hole* within the heap, and not at the end.*
+- *Note that "MEMORY" was allocated in the first available **hole** within the heap, and not at the end.*
 
 Now, we have successfully allocated the string "DYNAMIC MEMORY ALLOCATOR".
 
