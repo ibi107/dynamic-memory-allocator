@@ -6,7 +6,7 @@ HELLO++___
 7//////000
 ```
 - *Note that `memory` replaces `BUSY` bytes with the string allocated, and `sizes` replaces busy bytes with the length of the string*.
-- *Also note that `memory` allocates two extra bytes (`++`) after the string for visual purposes*.
+- *Also note that `memory` allocates two extra bytes (`++`) after the string to denote the end of a block.*
   
 The program also simulates fragmentation by randomly deallocating blocks of memory (see [Flow](#flow)).
 
