@@ -1,6 +1,6 @@
 # Dynamic Memory Allocator
 ## Introduction
-This project is a simulation for a dynamical memory allocator. The `memory` heap is represented as an array of characters in different states e.g. `_` represents `FREE` and `+` represents `BUSY`. Alongside the heap, a `sizes` array (of same length) is also maintained which signifies the which memory bytes are `BUSY`. For instance:
+This project is a simulation for a dynamical memory allocator. The `memory` heap is represented as an array of characters in different states e.g. `_` represents `FREE` and `+` represents `BUSY`. Alongside the heap, a `sizes` array (of same length) is also maintained which signifies which `memory` bytes are `BUSY`. For instance:
 ```
 HELLO++___
 7//////000
