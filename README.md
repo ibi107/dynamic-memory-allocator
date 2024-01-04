@@ -27,6 +27,7 @@ DYNAMIC++_____________
 9////////0000000000000
 ```
 - *Note that the memory is increased by `len = 2 * (len + 1)`*
+  
 Now we can allocate another string, "MEMORY":
 ```
 DYNAMIC++MEMORY++_____
