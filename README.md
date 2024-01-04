@@ -21,7 +21,7 @@ Say we want to allocate the string "DYNAMIC MEMORY ALLOCATOR". We firstly alloca
 DYNAMIC++_
 9////////0
 ```
-Now, we want to allocate another string, but there isn't enough space in the heap. So, we increase the memory in the heap with `increaseMemory()`:
+Now, we want to allocate another string, but there isn't enough space in the heap. So, memory is automatically increased in the heap with `increaseMemory()`:
 ```
 DYNAMIC++_____________
 9////////0000000000000
