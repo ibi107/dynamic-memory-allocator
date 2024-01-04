@@ -147,7 +147,7 @@ int spaceScanner(int nbytes, struct space *mem) {
         while (i + k < mem->len && mem->sizes[i + k] == FREESIZE) {
             k++;
         }
-        if (k > nbytes) {
+        if (k >= nbytes) {
             j = 1;
         } else {
             i++;
