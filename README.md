@@ -38,7 +38,7 @@ We now allocate "ALLOCATOR":
 DYNAMIC++________ALLOCATOR++__________________
 9////////0000000011/////////000000000000000000
 ```
-Oh, it seems "MEMORY" was deallocated due to **fragmentation** within our system. Let's reallocate "MEMORY":
+Oh no! it seems "MEMORY" was deallocated due to **fragmentation** within our system. Let's reallocate "MEMORY":
 ```
 DYNAMIC++MEMORY++ALLOCATOR++__________________
 9////////8///////11/////////000000000000000000
